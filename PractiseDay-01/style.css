@@ -50,12 +50,26 @@
     color: #3b82f6;
 }
 
-@media (max-width:873px) {
-    .navbar-container {
-        display: block;
+@media only screen and (min-width:400px) and (max-width:767px){
+    body{
+        background-color:red;
     }
-    .nav-items-container {
-        padding: 0px;
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-color:blue;
+    }
+    .title{
+        color: white;
+        display: none;
     }
 }
 
